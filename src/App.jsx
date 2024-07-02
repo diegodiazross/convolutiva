@@ -1,15 +1,15 @@
-import "bootswatch/dist/flatly/bootstrap.min.css";
 import "./App.css";
-import Navigator from "./components/Navbar";
 import "bootstrap/dist/css/bootstrap.min.css";
-import MainCarousel  from "./components/MainCarousel";
+import Navigator from "./components/Navbar";
+import MainCarousel from "./components/MainCarousel";
+import MachineLearningSection from "./components/MachineLearning";
 
 function App() {
   return (
     <>
       <Navigator></Navigator>
       <MainCarousel></MainCarousel>
-    
+      <MachineLearningSection></MachineLearningSection>
     </>
   );
 }
