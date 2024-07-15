@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 240.9947 497.9668 30.2666" preserveAspectRatio="xMaxYMax meet" xmlns="http://www.w3.org/2000/svg">
+  <g transform="matrix(0.9999999999999999, 0, 0, 0.9999999999999999, -7.105427357601002e-15, -7.105427357601002e-15)">
+    <g style="" transform="matrix(0.708578, 0, 0, 0.642958, 0.000003, 89.259753)">
+      <path d="M 323.748 143.836 H 473.611 L 473.611 132.336 L 498.611 146.336 L 473.611 160.336 L 473.611 148.836 H 323.748 V 143.836 Z" style="stroke: rgb(0, 0, 0); fill: rgb(31, 31, 31);" transform="matrix(1, 0.000070000002, -0.000070000002, 1, -148.605147871803, 103.636389285594)"/>
+      <path d="M 323.748 143.836 H 473.611 L 473.611 132.336 L 498.611 146.336 L 473.611 160.336 L 473.611 148.836 H 323.748 V 143.836 Z" style="stroke: rgb(0, 0, 0); fill: rgb(31, 31, 31);" transform="matrix(-1, 0.000016000002, -0.000016000002, -1, 498.613568300067, 396.329544822099)"/>
+    </g>
+    <g style="" transform="matrix(0.708578, 0, 0, 0.642958, 249.966957, 89.259753)">
+      <path d="M 323.748 143.836 H 473.611 L 473.611 132.336 L 498.611 146.336 L 473.611 160.336 L 473.611 148.836 H 323.748 V 143.836 Z" style="stroke: rgb(0, 0, 0); fill: rgb(31, 31, 31);" transform="matrix(1, 0.000070000002, -0.000070000002, 1, -148.605147871803, 103.636389285594)"/>
+      <path d="M 323.748 143.836 H 473.611 L 473.611 132.336 L 498.611 146.336 L 473.611 160.336 L 473.611 148.836 H 323.748 V 143.836 Z" style="stroke: rgb(0, 0, 0); fill: rgb(31, 31, 31);" transform="matrix(-1, 0.000016000002, -0.000016000002, -1, 498.613568300067, 396.329544822099)"/>
+    </g>
+    <text style="fill: rgb(135, 129, 129); font-family: Calibri; font-size: 10px; font-style: italic; paint-order: fill; white-space: pre; text-decoration: none solid rgba(0, 0, 0, 0.8);" transform="matrix(1.135038, 0, 0, 1, -20.776253, -10.220773)" x="58.671" y="278.989">Mirada por el espejo retrovisor</text>
+    <text style="fill: rgb(135, 129, 129); font-family: Calibri; font-size: 10px; font-style: italic; paint-order: fill; white-space: pre; text-decoration: none solid rgba(0, 0, 0, 0.8);" x="323.338" y="267.465">Inteligencia en tiempo real</text>
+  </g>
+</svg>

@@ -1,0 +1,59 @@
+.main-header {
+  margin: 30px 0 80px 0;
+}
+
+.arrow-container {
+    padding: 1rem;
+    margin: 1rem;
+}
+.svg {
+  width: 100%;
+}
+
+.container-stages {
+  display: flex;
+  justify-content: center;
+}
+
+.stages {
+  flex: 1;
+  border: 2px solid black;
+  border-radius: 15px;
+  margin: 0.5rem;
+}
+
+.first {
+  background-color: #1b7fc24d;
+}
+.second {
+  background-color: #98c4e2;
+  transform: translateY(-20px);
+}
+
+.third {
+  color: rgba(255, 255, 255, 0.691);
+  background-color: #1b7fc2bb;
+  transform: translateY(-40px);
+}
+
+.fourth {
+  color: white;
+  background-color: #1b7fc2;
+  transform: translateY(-60px);
+}
+
+.stage-header {
+  font-family: monospace;
+  font-size: 1rem;
+}
+
+.stage-description {
+  padding: 0.2rem;
+  font-family: sans-serif;
+  font-size: 0.5rem;
+  text-align: left;
+}
+
+.double-arrow{
+    width: 100%;
+}
