@@ -1,4 +1,4 @@
-import styles from "./MainCarousel.module.css";
+// import styles from "./MainCarousel.module.css";
 import dashboard1 from "../assets/dashboard1.jpg";
 import ml from "../assets/machine_learning.jpg";
 import app from "../assets/desarollo_apps.jpg";

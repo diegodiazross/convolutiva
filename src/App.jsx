@@ -1,18 +1,17 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navigator from "./components/Navbar";
-import MainCarousel from "./components/MainCarousel";
-import MachineLearningSection from "./components/MachineLearning";
-import TransformationDigital from "./components/DigitalTransformation";
+import Home from "./components/Home";
 
 function App() {
   return (
-    <>
-      <Navigator></Navigator>
-      <MainCarousel></MainCarousel>
-      <MachineLearningSection></MachineLearningSection>
-      <TransformationDigital></TransformationDigital>
-    </>
+    <BrowserRouter>
+      <Navigator> </Navigator>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
