@@ -20,7 +20,7 @@ function Servicios() {
       <Container fluid>
         <Row className="d-flex align-items-center gx-5">
           <Col md={6} className="">
-            <h3>Forecasting</h3>
+            <h3 id="forecasting">Forecasting</h3>
             <p> Predice el futuro , anticipate a los eventos.</p>
           </Col>
           <Col md={6}>
@@ -30,7 +30,7 @@ function Servicios() {
         <hr></hr>
         <Row className="d-flex align-items-center gx-5">
           <Col md={6} className="">
-            <h3>Dashboard</h3>
+            <h3 id="dashboard">Dashboard</h3>
             <p>Olvídate de esas presentaciones estáticas en power point. Analiza tus datos en tiempo real con gráficos interactivos que te permitan entender de mejor forma estos.</p>
           </Col>
           <Col md={6}>
@@ -40,7 +40,7 @@ function Servicios() {
         <hr></hr>
         <Row className="d-flex align-items-center gx-5">
           <Col md={6} className="">
-            <h3>NLP</h3>
+            <h3 id="nlp">NLP</h3>
             <p>Analiza texto con las ultimas herramientas de Natual Procesing Language</p>
           </Col>
           <Col md={6}>
@@ -50,7 +50,7 @@ function Servicios() {
         <hr></hr>
         <Row className="d-flex align-items-center gx-5">
           <Col md={6} className="">
-            <h3>Computer Vision</h3>
+            <h3 id="computervision">Computer Vision</h3>
             <p>Analiza imagenes y/o video </p>
           </Col>
           <Col md={6}>
@@ -60,7 +60,7 @@ function Servicios() {
         <hr></hr>
         <Row className="d-flex align-items-center gx-5">
           <Col md={6} className="">
-            <h3>Desarrollo de Apps</h3>
+            <h3 id="aps">Desarrollo de Apps</h3>
             <p>aplicaciones basadas en datos </p>
           </Col>
           <Col md={6}>

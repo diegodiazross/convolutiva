@@ -1,0 +1,19 @@
+.footer {
+  background-color: #1b7fc2;
+  margin-top: 50px;
+}
+
+.contacto {
+  padding-top: 1rem;
+}
+.header {
+  /* padding: 20px;
+  margin: 20px 0; */
+  color: white;
+  text-align: center;
+  padding-bottom: 0.5rem;
+}
+
+.correo {
+  color: black;
+}

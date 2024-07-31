@@ -4,6 +4,7 @@
   color: black;
   text-shadow: 1px 1px 2px white;
 }
+
 .container::before {
   content:"";
   position: absolute;
@@ -15,7 +16,7 @@
   background-position: 0 -100px;
   background-size: contain;
   background-repeat: repeat-x;
-  /* background-blend-mode: screen; */
+  background-blend-mode: screen;
   height: 100vh;
   opacity: 0.22;
 }

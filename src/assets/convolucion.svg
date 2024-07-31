@@ -1,0 +1,17 @@
+<svg width="500" height="300" viewBox="0 0 500 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Matriz de Entrada -->
+  <rect x="50" y="50" width="150" height="150" fill="none" stroke="black" stroke-width="2"/>
+  <line x1="100" y1="50" x2="100" y2="200" stroke="black" stroke-width="2"/>
+  <line x1="150" y1="50" x2="150" y2="200" stroke="black" stroke-width="2"/>
+  <line x1="50" y1="100" x2="200" y2="100" stroke="black" stroke-width="2"/>
+  <line x1="50" y1="150" x2="200" y2="150" stroke="black" stroke-width="2"/>
+  
+  <!-- Kernel -->
+  <rect id="kernel" x="50" y="50" width="50" height="50" fill="none" stroke="red" stroke-width="2"/>
+  <line id="k-line1" x1="100" y1="50" x2="100" y2="100" stroke="red" stroke-width="2"/>
+  <line id="k-line2" x1="50" y1="100" x2="100" y2="100" stroke="red" stroke-width="2"/>
+
+  <!-- Animación del Kernel -->
+  <animateTransform attributeName="transform" attributeType="XML" type="translate" from="0 0" to="100 0" dur="1s" repeatCount="indefinite" keySplines="0.42 0 0.58 1" calcMode="spline"/>
+  <animateTransform attributeName="transform" attributeType="XML" type="translate" from="0 0" to="100 100" dur="1s" repeatCount="indefinite" keySplines="0.42 0 0.58 1" calcMode="spline" begin="1s"/>
+  <animateTransform attributeName="transform" attributeType="XML" type="translate" from="100 0" to="0 0" dur="1s" repeatCount="indefinite" keySplines

@@ -1,19 +1,34 @@
-.footer {
-  background-color: #1b7fc2;
-  margin-top: 50px;
+.container {
+  position: relative;
+  
+}
+.background-image {
+ height: auto;
 }
 
-.contacto {
-  padding-top: 1rem;
-}
-.header {
-  /* padding: 20px;
-  margin: 20px 0; */
-  color: white;
-  text-align: center;
-  padding-bottom: 0.5rem;
+.overlay-header{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
-.correo {
-  color: black;
-}
+/* .container::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-image: url("../assets/machine_learning.jpg");
+  background-position: 0;
+  background-size: cover;
+  background-blend-mode: screen;
+  height: 100vh;
+  opacity: 1;
+} */
