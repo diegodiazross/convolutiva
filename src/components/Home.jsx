@@ -1,12 +1,12 @@
 import MainCarousel from "../components/MainCarousel";
-import MachineLearningSection from "../components/MachineLearning";
+import BussinessIntelligence from "./BussinessIntelligence";
 import TransformationDigital from "../components/DigitalTransformation";
 
 function Home() {
   return (
     <>
       <MainCarousel></MainCarousel>
-      <MachineLearningSection></MachineLearningSection>
+      <BussinessIntelligence></BussinessIntelligence>
       <TransformationDigital></TransformationDigital>
      
     </>
