@@ -14,7 +14,7 @@ function BussinessIntelligence() {
           </Col>
           <Col sm={12} md={6}>
             <h3> Inteligencia de negocios</h3>
-            <p>Según una estimación de Forrester, hasta el 70-80% de los datos generados por las empresas nunca se utilizan para análisis. Transforma datos en decisiones estratégicas.</p>
+            <p>Transforma datos en decisiones estratégicas. Según una estimación de Forrester, hasta el 70-80% de los datos generados por las empresas nunca se utilizan para análisis.</p>
           </Col>
         </Row>
       </Container>

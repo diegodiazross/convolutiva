@@ -1,4 +1,6 @@
 .carousel-img-container {
+  padding: 1rem 100px;
+  margin: 0 30px;
   max-height: 300px; /* Ajusta esta altura según tus necesidades */
   overflow: hidden;
 }

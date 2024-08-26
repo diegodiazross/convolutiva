@@ -1,10 +1,29 @@
+
+
+.main-container {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  background-color: #f5f5f7;
+}
+
 .main-header {
-  margin: 30px 0 80px 0;
+  margin: 40px 0;
+}
+
+.header {
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.secondary-header {
+  margin-top: 2rem;
+  text-align: justify;
 }
 
 .arrow-container {
-    padding: 1rem;
-    margin: 1rem;
+  padding: 1rem;
+  margin: 1rem;
 }
 .svg {
   width: 100%;
@@ -54,6 +73,6 @@
   text-align: left;
 }
 
-.double-arrow{
-    width: 100%;
+.double-arrow {
+  width: 100%;
 }
