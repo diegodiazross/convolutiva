@@ -1,19 +1,24 @@
-.footer {
-  background-color: #1b7fc2;
-  margin-top: 50px;
+footer {
+  background-color: black;
+  margin-top: 10px;
+  color: white;
+}
+
+.network{
+  width: 1.5rem;
+  height: 1.5rem;
+  fill:white
 }
 
 .contacto {
   padding-top: 1rem;
 }
 .header {
-  /* padding: 20px;
-  margin: 20px 0; */
-  color: white;
   text-align: center;
   padding-bottom: 0.5rem;
 }
 
-.correo {
-  color: black;
+.sobre {
+  width: 1.5rem;
+  height: 1.5rem;
 }

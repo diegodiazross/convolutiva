@@ -1,17 +1,18 @@
 import sobre from "../assets/envelope.svg";
-import styles from "./Contacto.module.css";
-
+import styles from "./Footer.module.css";
+import network from "../assets/deep-learning.png";
 function Footer() {
   return (
-    <footer className={styles["footer"]} id="contacto">
+    <footer className={`${styles.footer}`}>
+
       <div className={styles["contacto"]}>
         <h5 className={styles["header"]}>¿Cómo te podemos ayudar?</h5>
         <div className="Container d-flex justify-content-center align-items-start">
-          <img src={sobre} alt="icono sobre" style={{ width: "2rem", height: "2rem", color: "white" }} />
+          <img src={sobre} alt="icono sobre" className={styles["sobre"]} />
           <p>
             <b>&nbsp;Contacto:&nbsp;</b>
           </p>
-          <i className={styles["correo"]}>alquimianalytics@gmail.com</i>
+          <i>alquimianalytics@gmail.com</i>
         </div>
       </div>
     </footer>
