@@ -3,12 +3,13 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import network from "../assets/deep-learning.png";
 import Image  from "react-bootstrap/Image";
+import icon from "../assets/main-icon.svg";
 
 function Navigator() {
   return (
-    <Navbar expand="md" collapseOnSelect="true" bg="light" data-bs-theme="light">
+    <Navbar expand="md" collapseOnSelect="true" bg="secondary" data-bs-theme="dark">
       <Navbar.Brand href="/" className="ps-5">
-        <Image src={network} alt="logo" width="30px" height="30px"/>
+        <Image src={icon} alt="logo" width="30px" height="30px"/>
         {/* <img src={network} className="d-inline-block align-top" alt="logo"  />{" "} */}
         <strong>&nbsp;Convolutia</strong>
       </Navbar.Brand>

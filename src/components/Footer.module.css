@@ -4,14 +4,15 @@ footer {
   color: white;
 }
 
-.network{
-  width: 1.5rem;
-  height: 1.5rem;
-  fill:white
+.icon{
+  margin: 0 1.5rem; 
+  width: 3rem;
+  height: 3rem;
+
 }
 
 .contacto {
-  padding-top: 1rem;
+  padding: 1rem;
 }
 .header {
   text-align: center;
@@ -19,6 +20,6 @@ footer {
 }
 
 .sobre {
-  width: 1.5rem;
-  height: 1.5rem;
+  width:1.5rem;
+  height:1.5rem;
 }

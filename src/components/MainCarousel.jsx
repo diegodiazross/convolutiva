@@ -14,7 +14,7 @@ function MainCarousel() {
   };
 
   return (
-    <section>
+    <section className="mt-0">
       <Carousel className="mx-3" fade activeIndex={index} onSelect={handleSelect}>
         <Carousel.Item>
           <Image src={ai} rounded alt="machine learning" height="400px" width="100%" />
