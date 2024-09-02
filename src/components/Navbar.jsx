@@ -20,7 +20,7 @@ function Navigator() {
           <Nav.Link href="/contacto" className="">
             Contacto{" "}
           </Nav.Link>
-        </Nav>
+        </Nav>  
       </Navbar.Collapse>
     </Navbar>
   );
