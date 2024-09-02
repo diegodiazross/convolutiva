@@ -1,7 +1,6 @@
 // import styles from "./Navbar.module.css";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import network from "../assets/deep-learning.png";
 import Image  from "react-bootstrap/Image";
 import icon from "../assets/main-icon.svg";
 

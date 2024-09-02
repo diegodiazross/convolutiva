@@ -12,7 +12,7 @@ function Footer() {
           <Image src={sobre} alt="icono sobre" className={styles["sobre"]} />
           <div>
           &nbsp;Contacto:&nbsp;
-          <i>alquimianalytics@gmail.com</i>
+          <i>convolutia@gmail.com</i>
           </div>
         </div>
       </div>

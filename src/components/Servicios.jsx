@@ -13,15 +13,15 @@ function Servicios() {
   return (
     <>
       <div>
-        <h2 className="m-5">Algoritmos al servicio de tu negocio</h2>
+        <h2 className="m-5 text-center">Algoritmos al servicio de tu negocio</h2>
         <p className="m-4">Las tecnologías basadas en la nube nos dan la posibilidad de generar soluciones que se ajusten a tu necesidad. Utiliza los datos para transformar la toma de decisiones.</p>
-        <Image className="m-4" src={bi} fluid thumbnail />
+        <Image className="m-4" style={{width:"90%", height:"500px"}}  src={bi} fluid thumbnail />
       </div>
       <Container fluid>
         <Row className="d-flex align-items-center gx-5">
           <Col md={6} className="">
             <h3 id="forecasting">Forecasting</h3>
-            <p> Predice el futuro , anticipate a los eventos.</p>
+            <p> Predice el futuro , anticipate a los eventos.	Pronostica tus ventas,clientes, fuga.</p>
           </Col>
           <Col md={6}>
             <Image src={forecasting} rounded fluid />
@@ -31,7 +31,7 @@ function Servicios() {
         <Row className="d-flex align-items-center gx-5">
           <Col md={6} className="">
             <h3 id="dashboard">Dashboard</h3>
-            <p>Olvídate de esas presentaciones estáticas en power point. Analiza tus datos en tiempo real con gráficos interactivos que te permitan entender de mejor forma estos.</p>
+            <p>Porque un buen gráfico vale más que mil reportes.	Observa tus datos en tiempo real de forma que puedas tomar mejores decisiones. </p>
           </Col>
           <Col md={6}>
             <Image src={dashboard} rounded fluid />
@@ -41,7 +41,7 @@ function Servicios() {
         <Row className="d-flex align-items-center gx-5">
           <Col md={6} className="">
             <h3 id="nlp">NLP</h3>
-            <p>Analiza texto con las ultimas herramientas de Natual Procesing Language</p>
+            <p>Conjunto de herramientas utilizadas para analizar documentos de texto.</p>
           </Col>
           <Col md={6}>
             <Image src={nlp} rounded fluid />
@@ -51,7 +51,7 @@ function Servicios() {
         <Row className="d-flex align-items-center gx-5">
           <Col md={6} className="">
             <h3 id="computervision">Computer Vision</h3>
-            <p>Analiza imagenes y/o video </p>
+            <p> Conjunto de herramientas utilizadas para analizar videos e imágenes.</p>
           </Col>
           <Col md={6}>
             <Image src={computer_vision} rounded fluid />
@@ -60,8 +60,8 @@ function Servicios() {
         <hr></hr>
         <Row className="d-flex align-items-center gx-5">
           <Col md={6} className="">
-            <h3 id="aps">Desarrollo de Apps</h3>
-            <p>aplicaciones basadas en datos </p>
+            <h3 id="aps"> Apps</h3>
+            <p>Desarrollo de aplicaciones centradas en modelos de machine learning o IA. </p>
           </Col>
           <Col md={6}>
             <Image src={app} rounded fluid />
