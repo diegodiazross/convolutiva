@@ -3,8 +3,8 @@ import styles from "../components/QuienesSomos.module.css";
 function QuienesSomos() {
   return (
     <div className={`Container ${styles.container}`}>
-      <h2> Nuestra Misión </h2>
-      <p>Según una estimación de Forrester, hasta el 70-80% de los datos generados por las empresas nunca se utilizan para análisis. Alchimia Analytics nació con el objetivo de transformar los datos en conocimiento relevante. Nuestro objetivo es ayudar a las empresas en su camino hacia la transformación digital. Para esto utilizamos técnicas modernas de inteligencia de negocio.</p>
+      <h2 className="text-center"> Nuestra Misión </h2>
+      <p className="text-start text-wrap">Convolutia nace el 2024, buscamos ayudar en la transformación digital de las empresas, mediante el uso de IA y machine learning en conjunto con las tecnologías de la nube. Contamos con años de experiencia en distintos rubros.  </p>
     </div>
   );
 }
