@@ -15,7 +15,7 @@ function Navigator() {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav" className="justify-content-center mx-2">
         <Nav className="">
-          <Nav.Link href="/quienes-somos">Quienes Somos</Nav.Link>
+          <Nav.Link href="/mision">Misión</Nav.Link>
           <Nav.Link href="/servicios">Servicios</Nav.Link>
           <Nav.Link href="/contacto" className="">
             Contacto{" "}
