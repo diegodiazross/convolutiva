@@ -1,21 +1,20 @@
-.container {
+.contenedor {
   position: relative;
-  display: inline-block;
-}
-.background-image {
-  position: relative;
+  width: 100%;
+  height: 400px;
+  background-image: url("../assets/deepmind.jpg"); /* Imagen de fondo */
+  background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
+  background-position: center; /* Centra la imagen */
+  display: flex; /* Usar flexbox para alinear el texto */
+  justify-content: center; /* Centra horizontalmente el texto */
+  align-items: center; /* Centra verticalmente el texto */
 }
 
-.overlay-header {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.texto-superpuesto {
   color: white;
   font-size: 24px;
-  font-weight: bold;
   text-align: center;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-  
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mejor legibilidad */
+  padding: 10px;
+  border-radius: 5px;
 }
-
